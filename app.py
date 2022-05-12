@@ -1,21 +1,29 @@
 from flask import Flask
-import json
+from flask import render_template
+from flask import request
+from flask import jsonify
+
+
+
 app = Flask(__name__)
 
 @app.route("/")
-def hello_world():
-    return "<h1>Hello, Me!</h1>"
+def home():
+  return render_template('test.html')
 
-@app.route("/test")
-def string_to_cut():
-    string_to_cut = "iamyourlyftdriver"
+# accepts only a post request
+@app.route("/test", methods= ['POST'])
+def cutting_string():
+  data = request.get_json()  
+  string_to_cut = data['string_to_cut']
+  
+  
+  # every third letter in the string  
+  returned_string = jsonify({"return_string": string_to_cut[2::3]})
+  
+  return returned_string
 
-    string_value = {
-        "string_to_cut": string_to_cut
-    }
 
-    return json.dumps(string_to_cut)
- 
-
+  
 if __name__ == "__main__":
-    app.run(debug=True)
+  app.run()
