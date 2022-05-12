@@ -1,6 +1,6 @@
 # String To Cut
 
-A brief description of what this project does and who it's for
+[here]**https://rosita-flask-app.glitch.me/** is the link to the web app.
 
 This is a small web application that accepts a POST request and returns a JSON object with a string containing
 every third letter of the original string.
