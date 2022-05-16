@@ -14,7 +14,7 @@ Web application uses
 Open terminal and run this curl command:
 
 ```bash
-curl -d '{"string_to_cut": "your-string"}' -H "Content-Type: application/json" -X POST http://rosita-flask-app.glitch.me/test
+curl -d '{"string_to_cut": "your string here"}' -H "Content-Type: application/json" -X POST http://rosita-flask-app.glitch.me/test
 ```
 
 
