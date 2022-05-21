@@ -11,7 +11,7 @@ Web application uses
 - Flask
 
 
-Open terminal and run this curl command:
+Open terminal and run this curl command (be sure to chage the text "your string here"):
 
 ```bash
 curl -d '{"string_to_cut": "your string here"}' -H "Content-Type: application/json" -X POST http://rosita-flask-app.glitch.me/test
