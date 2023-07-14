@@ -5,6 +5,8 @@ every third letter of the original string.
 
 [Here](https://rosita-flask-app.glitch.me/){target="_blank"} is the link to the web app.
 <a href="https://rosita-flask-app.glitch.me/" target="_blank">Here</a> is the link to the web app.
+[Link Text](http://example.com){:target="_blank"}
+
 
 
 Web application uses
