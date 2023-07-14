@@ -3,7 +3,7 @@
 This is a small web application that accepts a POST request and returns a JSON object with a string containing
 every third letter of the original string.
 
-[Here](https://rosita-flask-app.glitch.me/){:target="_blank"} is the link to the web app.
+[Here](https://rosita-flask-app.glitch.me/){target="_blank"} is the link to the web app.
 
 Web application uses
 - HTML
