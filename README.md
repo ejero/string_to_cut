@@ -4,6 +4,8 @@ This is a small web application that accepts a POST request and returns a JSON o
 every third letter of the original string.
 
 [Here](https://rosita-flask-app.glitch.me/){target="_blank"} is the link to the web app.
+<a href="https://rosita-flask-app.glitch.me/" target="_blank">Here</a> is the link to the web app.
+
 
 Web application uses
 - HTML
